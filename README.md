@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-npm install -D eslint@latest @intility/eslint-config-react-compiler@latest
+npm install -D @intility/eslint-config-react-compiler@latest
 ```
 
 ## Basic Usage

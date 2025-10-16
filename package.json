@@ -24,5 +24,14 @@
   },
   "devDependencies": {
     "eslint": "^9.37.0"
-  }
+  },
+  "homepage": "https://github.com/intility/eslint-config-react-compiler",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intility/eslint-config-react-compiler.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
 }

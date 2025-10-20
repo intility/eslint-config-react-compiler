@@ -42,15 +42,13 @@ Vite setup with compiler and `vite-plugin-checker`:
 
 ```ts
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import babel from "vite-plugin-babel";
+import react from "@vitejs/plugin-react";
 import checker from "vite-plugin-checker";
 
 export default defineConfig({
   plugins: [
-    react(),
-    babel({
-      babelConfig: {
+    react({
+      babel: {
         plugins: ["babel-plugin-react-compiler"],
       },
     }),

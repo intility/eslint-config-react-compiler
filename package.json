@@ -1,6 +1,6 @@
 {
   "name": "@intility/eslint-config-react-compiler",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Minimal eslint config with react compiler, for projects with existing biome setup.",
   "keywords": [
     "react",

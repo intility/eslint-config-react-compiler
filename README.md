@@ -9,7 +9,7 @@ If you're already a user of eslint, you should follow the [official React docs](
 ## Installation
 
 ```bash
-npm install -D @intility/eslint-config-react-compiler@latest
+npm install -D eslint @intility/eslint-config-react-compiler@latest
 ```
 
 ## Basic Usage

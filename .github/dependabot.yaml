@@ -4,7 +4,8 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: 'cron'
+      cronjob: '0 9 * * MON#1 Europe/Oslo'
     groups:
       frontend:
         patterns:
@@ -16,4 +17,5 @@ updates:
   - package-ecosystem: github-actions
     directory: /
     schedule:
-      interval: "weekly"
+      interval: 'cron'
+      cronjob: '0 9 * * MON#1 Europe/Oslo'

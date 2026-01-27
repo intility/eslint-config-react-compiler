@@ -1,21 +1,21 @@
-version: 2
+# version: 2
 
-updates:
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: 'cron'
-      cronjob: '0 9 * * MON#1 Europe/Oslo'
-    groups:
-      frontend:
-        patterns:
-          - "*"
-        update-types:
-          - patch
-          - minor
+# updates:
+#   - package-ecosystem: "npm"
+#     directory: "/"
+#     schedule:
+#       interval: 'cron'
+#       cronjob: '0 9 * * MON#1 Europe/Oslo'
+#     groups:
+#       frontend:
+#         patterns:
+#           - "*"
+#         update-types:
+#           - patch
+#           - minor
 
-  - package-ecosystem: github-actions
-    directory: /
-    schedule:
-      interval: 'cron'
-      cronjob: '0 9 * * MON#1 Europe/Oslo'
+#   - package-ecosystem: github-actions
+#     directory: /
+#     schedule:
+#       interval: 'cron'
+#       cronjob: '0 9 * * MON#1 Europe/Oslo'

@@ -20,13 +20,13 @@
     "eslint": ">= 9.0.0"
   },
   "dependencies": {
-    "eslint-plugin-react-hooks": "^7.0.0",
-    "typescript-eslint": "^8.46.1"
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "typescript-eslint": "^8.59.0"
   },
   "devDependencies": {
     "@total-typescript/tsconfig": "^1.0.4",
-    "eslint": "^9.39.3",
-    "typescript": "^5.9.3"
+    "eslint": "^10.2.1",
+    "typescript": "^6.0.3"
   },
   "homepage": "https://github.com/intility/eslint-config-react-compiler",
   "repository": {

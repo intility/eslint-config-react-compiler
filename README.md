@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> This package is deprecated. Migrate to Biome's React Compiler integration.
+> https://biomejs.dev/linter/rules/use-react-compiler/javascript/
+
 # @intility/eslint-config-react-compiler
 
 This package is a minimal eslint config with only the React Compiler. This is intended for users of Biome, which doesn't support the compiler yet.
